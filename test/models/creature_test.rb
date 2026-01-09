@@ -13,5 +13,4 @@ class CreatureTest < ActiveSupport::TestCase
   test "Space, Outer" do
     assert_equal @c2.name, "Outer Space"
   end
-
 end

@@ -16,8 +16,7 @@ class CreaturesControllerTest < ActionDispatch::IntegrationTest
       post creatures_url,
         params: {
           creature: {
-            name: "Test Creature",
-            # description: "Test Description"
+            name: "Test Creature"
           }
         }
     end

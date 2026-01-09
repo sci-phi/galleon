@@ -8,6 +8,10 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-["Adam Frankenstein", "Bad Wolf", "Sasquatch Wendigo"].each do |name|
+[
+  "Adam Frankenstein",
+  "Bad Wolf",
+  "Sasquatch Wendigo"
+].each do |name|
   Creature.find_or_create_by!(name: name)
 end
